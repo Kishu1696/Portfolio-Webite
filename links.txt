@@ -1,0 +1,4 @@
+LANDINGIMAGE=https://images.unsplash.com/photo-1518644730709-0835105d9daa?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+ABOUT_IMAGE_1=https://i.pinimg.com/736x/bb/e1/65/bbe165a516ad8e5640dc89763f3227ff.jpg
+ABOUT_IMAGE_2=https://i.pinimg.com/564x/cb/1f/1c/cb1f1ce18bc28a15430f1ea696bcce2e.jpg
+ABOUT_IMAGE_3=https://i.pinimg.com/564x/b2/8e/b3/b28eb398b246a32ab8d8a352dc1eaed6.jpg

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>My Porfolio</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="index.css"
+  />
+  <script src="index.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@next/dist/aos.css"
+  />
+  <body>
+    <nav>
+      <h1>My Portfolio</h1>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contect Us</li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="mainSection">
+      <div data-aos="fade-right">
+        <div class="landingPageintroSection">
+        <h6>Hi I am</h6>
+        <h1>Krishna  <span class="red">Soni</span></h1>
+        <p>Student</p>
+        </div>
+        <p>Lorem ipsum is placeholder text 
+          commonly used in the graphic, print, 
+          and publishing industries for previewing 
+          layouts and visual mockups.</p>
+      </div>
+      <div><img class="LandingImage" src="1.jpg"
+        alt="My Portfolio image" 
+        style="width: 100%; height:100%; object-fit: cover;" data-aos="fade-right">
+      </div>
+    </section>    
+    <section
+    class="aboutMeSection"
+      id="abut me">      
+      <h2 class="text-2xl text-center"><span class="red">About </span> Me</h2>      
+      <div class="aboutMeCardWrapper"  data-aos="fade-right">
+        <div >
+        <h3>Who am <span class="red">I ?</span></h3>  
+        <P>Lorem ipsum, or lipsum as it is sometimes known, 
+          is dummy text used in laying out print, graphic or web designs.
+          The passage is attributed to an unknown typesetter in the 15th 
+          Century who is thought to have scrambled parts of Cicero's
+           De Finibus Bonorum et Malorum for use in a type specimen book.
+          It usually begins with:</P>
+        </div>
+        <img class="aboutimage" src="1.jpg" 
+        alt="Who am I" style="height: 40vh; width: 40vh; object-fit: cover;">
+      </div>
+      <div class="aboutMeCardWrapper"  data-aos="fade-right">
+        <div>
+          <h3>My<span class="red">  Projects</span></h3>  
+          <P>Lorem ipsum, or lipsum as it is sometimes known, 
+            is dummy text used in laying out print, graphic or web designs.
+            The passage is attributed to an unknown typesetter in the 15th 
+            Century who is thought to have scrambled parts of Cicero's
+            De Finibus Bonorum et Malorum for use in a type specimen book.
+            It usually begins with:</P>
+          </div>
+          <img class="aboutimage" src="1.jpg" 
+          alt="Who am I" style="height: 40vh; width: 40vh; object-fit: cover;">
+      </div>
+      <div class="aboutMeCardWrapper"  data-aos="fade-right">
+        <div>
+        <h3>What make me <span class="red"> Different?</span></h3>  
+        <P>Lorem ipsum, or lipsum as it is sometimes known, 
+          is dummy text used in laying out print, graphic or web designs.
+          The passage is attributed to an unknown typesetter in the 15th 
+          Century who is thought to have scrambled parts of Cicero's
+           De Finibus Bonorum et Malorum for use in a type specimen book.
+          It usually begins with:</P>
+        </div>
+        <img class="aboutimage" src="1.jpg" 
+        alt="Who am I" style="height: 40vh; width: 40vh; object-fit: cover;">
+      </div>
+    </section>    
+    <section
+      class="contactSection"
+      id="contact"
+      data-aos="fade-right">
+      <div class="contactSectionWrapper">
+        <h3 class="text-2xl text-center"><span class="red">Contect </span> Me</h3>
+        <form>
+          <input type="text" placeholder="Name"><br>
+          <input type="email" placeholder="abc@gmail.com"><br>
+          <textarea name="message"  id="" placeholder="Message"></textarea><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
